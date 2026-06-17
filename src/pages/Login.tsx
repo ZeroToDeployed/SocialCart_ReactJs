@@ -1,9 +1,10 @@
 import React from 'react'
+import {Login as LoginComponent} from '../components'
 
 function Login() {
   return (
     <div>
-        <h1>Welcome to login page</h1>
+        <LoginComponent/>
     </div>
   )
 }
